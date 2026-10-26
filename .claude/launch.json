@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "frontend",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--dir", "client", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "lobby-worker",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "lobby-worker", "run", "dev"],
+      "port": 8787
+    }
+  ]
+}
